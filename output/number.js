@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// var_name :data_type = value;
+var num1 = 10;
+var num2 = 20;
+var total = num1 + num2;
+console.log(total);
+var oct = 0o100;
+var hex = 0x0001;
+var bin = 0b0001;
+console.log(oct + 10);
+var item = 15;
+var item2 = "20";
+var item2Converted = +item2;
+console.log(item + item2Converted);

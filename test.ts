@@ -1,0 +1,1 @@
+var test10:string ="abc";

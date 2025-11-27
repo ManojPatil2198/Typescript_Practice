@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var str = "Hello how are you?";
+var str2 = 'I am fine';
+var age = 25;
+var userName = "JohnDoe";
+var info = `User ${userName} is ${age} years old.`;
+console.log(info);
+var num = 10;
+var data = num.toString();
+console.log(data);
+var item = true;
+var other;
+other = item;
+console.log(other);
