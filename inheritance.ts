@@ -3,16 +3,16 @@
 // Inheritance in TypeScript is a mechanism that allows a class to inherit properties and methods from another class. 
 // This promotes code reusability and establishes a hierarchical relationship between classes. 
 
-class Auth {
-      login(name: string, password: string) {
-        if (name && password) {
-            return "Student Login Successful";
-        }
-        else {
-            return "Student Login Failed";
-        }
+export class Auth {
+  login(name: string, password: string) {
+    if (name && password) {
+      return "Student Login Successful";
+    } else {
+      return "Student Login Failed";
     }
+  }
 }
+
 
 
 class Student  extends Auth {

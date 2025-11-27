@@ -1,8 +1,6 @@
-"use strict";
 //  what is union type?
 // Union type allows a variable to hold more than one type of data.
 // It is defined using the pipe (|) symbol between the types.
-Object.defineProperty(exports, "__esModule", { value: true });
 // data type declaration with union type
 // Example 1: A variable that can hold either a string or a number
 var studentData = "John Doe";
@@ -25,3 +23,4 @@ function studentInfo(name) {
 }
 studentInfo("Alice"); // valid
 studentInfo(123); // valid
+export {};

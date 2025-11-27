@@ -1,9 +1,7 @@
-"use strict";
 // what is interface in typescript
 // An interface in TypeScript is a syntactical contract that defines the shape of an object. 
 // It specifies the properties and methods that an object must have, without providing the implementation details. 
 // Interfaces are used to define the structure of data and to enforce type-checking in TypeScript.
-Object.defineProperty(exports, "__esModule", { value: true });
 // Object following Info interface
 var studentObj = {
     name: "John Doe",
@@ -23,3 +21,4 @@ var managementObj = {
     age: 45,
     college: "ABC University"
 };
+export {};

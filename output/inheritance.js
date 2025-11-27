@@ -1,9 +1,7 @@
-"use strict";
 //what is inheritance in typescript?
 // Inheritance in TypeScript is a mechanism that allows a class to inherit properties and methods from another class. 
 // This promotes code reusability and establishes a hierarchical relationship between classes. 
-Object.defineProperty(exports, "__esModule", { value: true });
-class Auth {
+export class Auth {
     login(name, password) {
         if (name && password) {
             return "Student Login Successful";

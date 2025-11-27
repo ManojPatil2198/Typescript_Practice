@@ -1,8 +1,6 @@
-"use strict";
 // what is enum in TypeScript?
 // a data type that allows you to define a set of named constants,
 //  making your code more readable and maintainable.
-Object.defineProperty(exports, "__esModule", { value: true });
 var whoType;
 (function (whoType) {
     whoType["student"] = "student";
@@ -23,3 +21,4 @@ var Fruit;
 var myFruit = Fruit.a;
 myFruit = Fruit.b;
 console.log(myFruit); // "banana"
+export {};

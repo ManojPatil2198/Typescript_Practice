@@ -1,8 +1,6 @@
-"use strict";
 // what is class in typescript
 //  a class  is a blueprint of the object. it is used to create the object.
 //  it is a template for creating objects.
-Object.defineProperty(exports, "__esModule", { value: true });
 // what is access modifier in typescript
 //  access modifier is used to set the visibility of class members.
 //  there are three types of access modifiers in typescript
@@ -47,3 +45,4 @@ class Order extends Product {
 // console.log(product.price); // error: price is protected
 var order = new Order();
 console.log(order.getPrice());
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var str = "Hello how are you?";
 var str2 = 'I am fine';
 var age = 25;
@@ -13,3 +11,4 @@ var item = true;
 var other;
 other = item;
 console.log(other);
+export {};

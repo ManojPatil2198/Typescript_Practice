@@ -1,7 +1,5 @@
-"use strict";
 // what is object in typescript
 // object is a collection of key value pairs
-Object.defineProperty(exports, "__esModule", { value: true });
 // var userData:{
 //     name:string,
 //     age:number,
@@ -23,3 +21,4 @@ var userData = {
         city: "New York"
     }
 };
+export {};

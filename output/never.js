@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // what is never type in typescript
 // A function that never returns a value
 // because it either throws an error or has an infinite loop
@@ -11,3 +9,4 @@ function loopFunction() {
 function simple1() {
     throw new Error("This function always throws an error.");
 }
+export {};
